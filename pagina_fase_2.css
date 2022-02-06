@@ -1,0 +1,464 @@
+   
+
+body{
+    
+	background-color: #ccccff;
+}
+/*parallax1*/
+
+.parallax1{
+	
+	background-color:#ccccff ;
+	opacity: 10%;
+	height: 500px;
+	width: 13px;
+	
+	background-attachment:fixed;
+	background-position:center;
+	background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px){
+	.parallax1{
+		background-attachment: scroll;
+		
+	}
+}
+
+/*pallarax2*/
+.parallax2{
+	
+	background-color: #ffffff;
+	
+	height: 500px;
+	width: auto;
+	
+	background-attachment:fixed;
+	background-position:center;
+	background-size: cover;
+}
+@media only screen and (max-device-width: 1366px){
+	.parallax2{
+		background-attachment: scroll;
+	}
+}
+
+
+header{
+	position: relative;
+    top:30px;
+	left : 200px;
+    width: 150px;
+    height: auto;
+    
+
+}
+
+
+
+button{
+    width: 50px;
+    height: 20px;
+    border: 1px solid #000000;
+        
+}
+.cancelar{
+    
+    margin-left: 85px;
+    width: 71px;
+	border-radius: 10px;
+}
+button:hover{
+    background-color: lightblue;
+}
+h1{
+	padding: 0;
+	margin: 10px;
+    text-align:center;
+	font-family: Bernard MT Condensed;
+	text-shadow: #000000;
+}
+h2{
+	padding: 10px;
+	margin: 30px;
+    text-align:center;
+	font-family: Bernard MT Condensed;
+	border-bottom-color: blue;
+}
+nav{
+	
+	
+	margin: 0px;
+	padding: 0px;
+    width: auto;
+    height: auto;
+    text-align: center;
+	background-color: #fff;
+
+	
+}
+
+
+
+
+nav ul{
+
+	
+	
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+	
+    
+}
+
+.listas2{
+	
+	background-color: 
+aqua;}
+
+
+.list{
+	
+	
+	padding: 0 30px 0 10px;
+	text-align: center;
+	width: 100px;
+}
+#prueba{
+	
+	list-style-type: none;
+	margin:0px;
+	padding:10px;
+	width: auto;
+	height:40px;
+	background-color: aqua;
+}
+
+nav ul>li{
+    
+	
+    margin: 0px 0px 0px 0px; 
+    padding: 4.5px 16px;
+    background-color: #ffffff;
+    font-size: 20px;
+    list-style-type: none;
+    
+    
+}
+
+
+
+
+
+nav ul li a{
+	
+	text-decoration: none;
+	color:#000000;
+}
+
+li:hover{
+	
+    background-color: #ccccff;
+    border: 0px solid #ccccff; 
+	
+	
+}
+
+
+
+.container{
+	
+	position: relative;
+	margin-top:3px;
+	
+}
+
+
+
+
+.icons{
+	float: right;
+}
+
+section{
+	padding-top:15px;
+	position: absolute;
+    top: 100px;
+	left: 20px;
+    width: 490px;
+    height: 228px;
+    font-family: Bernard MT Condensed;
+	
+}
+
+#parrafo{
+    
+    margin: 0px;
+    padding: 23px 20px 2px 24px;
+}
+.article{
+	position: absolute;
+    top: 20px;
+	right: 30px;
+    width: 390px;
+    height: 350px;
+	border: 1px solid #000000;
+    background-repeat: no-repeat;
+	
+	
+    
+}
+
+
+
+
+aside{
+    margin-left: 696px;
+    margin-top: -302px;
+    padding: 0px;
+    width: 282px;
+    height: 300px;
+    border: 1px solid #000000; 
+    background-color: #a6a6a6;
+    border-radius: 54px;
+}
+
+
+.tabla{
+	margin: 30px 0 20px 15px ;
+	padding: 0px;
+	width: 400px;
+	height: 170px;
+	border:1px solid #a6a6a6;
+    
+}
+
+.tabla1{
+	
+	position: absolute;
+	top:20px;
+	left: 500px;
+	margin: 20px 0 0 10px ;
+	padding: 0px;
+	width: 400px;
+	height: 270px;
+	border:1px solid #a6a6a6;
+}
+
+
+
+.circulo{
+	
+	position: absolute;
+	top:50px;
+	left: 334px;
+	margin: 20px 0 0 10px ;
+	padding: 0px;
+	width: 300px;
+	height: 300px;
+	border:1px solid #a6a6a6;
+	border-radius: 180px ;
+}
+
+.cuadrado{
+	
+	margin: 0;
+	padding: 70px 30px 0 30px;
+	
+	
+}
+
+.cuadrado > .izquierdo .derecho{
+	
+	
+	position: absolute;
+	
+
+}
+
+.cuadrado > .izquierdo{
+	
+	
+	left:30px;
+	height:300px;
+	width:300px;
+	border: 1px solid #000000;
+    
+}
+
+.cuadrado > .derecho{
+	
+	
+	float:right;
+	right:30px;
+	height:300px;
+	width:300px;
+	border: 1px solid #000000;
+    
+	
+}
+
+
+.contac{
+	
+	margin: 0 ;
+	padding:0; 
+}
+
+p{
+
+	margin: 0 10px 0 10px;
+	padding: 0;
+    font-family: sans-serif,fantasy;
+	
+}
+
+
+.from1{
+    text-align: center;
+    align-content: center;
+	
+}
+.from{
+    margin: 0px ;
+    padding: 3px;
+    text-shadow: 3px 2px #4dc3ff; 
+    
+}
+#enviar{
+     
+    margin: 30px 0px 0px 210px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #000000;
+	
+}
+input {
+    
+    margin: 20px 10px 10px 34px;
+    height: 20px;
+    border-bottom-color: blue;
+    background-color: beige;
+    border: 1px #000000;
+    
+}
+.espacio{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+
+
+/*tabla de productos*/
+
+.gallery{
+    
+    margin:0;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    
+}
+
+.gallery table{
+    
+    margin:10px 0px 20px 100px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius:10px; 
+    
+}
+
+
+
+th{
+    margin:0px;
+    padding: 0px;
+    
+}
+
+td{
+    
+    margin: 0px;
+    padding: 70px 40px;
+    border: solid 1px #000;
+}
+
+td:hover{
+    
+    background-color:#ccccff;
+}
+
+.but_buy{
+    margin:auto;
+    padding: auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width:65px;
+    
+}
+.but_buy:hover{
+    
+    background-color:#ccccff;
+    
+}
+
+
+
+/*footer final de la pagina*/
+
+footer{
+    
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 728px;
+    height: 102px;
+    border: 1px solid #000000;
+    background-color: #a6a6a6;
+    border-radius: 54px;
+}        
+
+#footer{
+    margin: 0px;
+    padding: 28px 50px 1px 60px;
+    
+}
+
+
+/*
+#forde{
+	 margin-left: 9px;
+	margin-right: 0px;
+    margin-top: 20px;
+    width: 961px;
+    height: 243px;
+    border: 1px solid #000000;
+    background-color: #ccccff;
+    
+}
+*/
+#vision{
+	
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 211px;
+    height: 415px;
+    border: 1px solid #000000;
+    background-color: #a6a6a6;
+	
+}
+ /*  
+}
+
+ #desplejado{
+	margin: 20px 20px;
+	margin-left: 60px;
+	padding: 16px;
+    display: none;
+	background-color: #ffffff;
+	
+}
+*/
